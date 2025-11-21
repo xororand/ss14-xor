@@ -76,7 +76,12 @@ public sealed class MappingSystem : EntitySystem
             var saveDir = Path.Combine(_cfg.GetCVar(CCVars.AutosaveDirectory), name).Replace(Path.DirectorySeparatorChar, '/');
             _resMan.UserData.CreateDir(new ResPath(saveDir).ToRootedPath());
 
-            var path = new ResPath(Path.Combine(saveDir, $"{DateTime.Now:yyyy-M-dd_HH.mm.ss}-AUTO.yml"));
+
+            var safePath = Path.Combine(saveDir, $"{DateTime.Now:yyyy-MM-dd_HH-mm-ss}-AUTO.yml")
+                .Replace('\\', '/'); // заменить все обратные слеши на прямые;
+
+            var path = new ResPath(safePath);
+
             Log.Info($"Autosaving map {name} ({uid}) to {path}. Next save in {ReadableTimeLeft(uid)} seconds.");
 
             if (HasComp<MapComponent>(uid))

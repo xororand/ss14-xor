@@ -48,7 +48,7 @@ holiday-name-bisexual-pride-day = Bisexual Pride Day
 holiday-name-stupid-questions-day = Stupid-Questions Day
 holiday-name-animals-day = Animal's Day
 holiday-name-smiling-day = Smiling Day
-holiday-name-lesbian-day = Lesbian Day
+holiday-name-lesbian-day = ДНЯ ЛЕСБУХ ЕБАНЫХ
 holiday-name-canadian-thanksgiving = Thanksgiving in Canada
 holiday-name-spirit-day = Spirit Day
 holiday-name-halloween = Halloween
@@ -57,7 +57,7 @@ holiday-name-armistice-day = Armistice Day
 holiday-name-kindness-day = Kindness Day
 holiday-name-life-day = Life Day
 holiday-name-flowers-day = Flower's Day
-holiday-name-transgender-remembrance-day = Transgender Day of Remembrance
+holiday-name-transgender-remembrance-day = ДНЯ ПИДОРАСОВ И ПЕДОФИЛОВ
 holiday-name-saying-hello-day = Saying Hello Day
 holiday-name-thanksgiving = Thanksgiving in the United States
 holiday-name-sinterklaas = Sinterklaas
@@ -69,7 +69,7 @@ holiday-name-festive-season = Festive Season
 holiday-name-boxing-day = Boxing Day
 holiday-name-friday-thirteenth = Friday the 13th
 holiday-name-national-coming-out-day = National Coming Out Day
-holiday-name-pride-month = Pride Month
+holiday-name-pride-month = МЕСЯЦ ПИДОРАСОВ
 
 ## Custom congrats
 
